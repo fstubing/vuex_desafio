@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Tienda 32 Bits</h1>
+  <br /><br />
+  <h3>Lista de Juegos</h3>
+  <TablaJuegos />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TablaJuegos from "./components/TablaJuegos.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TablaJuegos,
+  },
+};
 </script>
 
 <style>
